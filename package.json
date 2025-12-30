@@ -1,0 +1,35 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/kuptsova18/work_netology#readme",
+  "bugs": {
+    "url": "https://github.com/kuptsova18/work_netology/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuptsova18/work_netology.git"
+  },
+  "license": "ISC",
+  "author": "Kuptsova Kate",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@eslint/js": "^9.39.2",
+    "eslint": "^8.57.1",
+    "globals": "^16.5.0"
+  },
+  "dependencies": {
+    "core-js": "^3.47.0"
+  }
+}
